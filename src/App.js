@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import webdev from "./webdev.jpg"
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="title red">This is a title</h1>
+      <img className="img" src={webdev} alt="firstImg" />
+    <div className="i"> 
+      <img className="i1" src="/65.jpg" alt="secImg"/>
+      <video width={320} height={240} controls>
+       <source className="i2" src="video.mp4" type="video/mp4" />
+      </video>
     </div>
+  </div>
+    
   );
 }
 
